@@ -1,0 +1,41 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "eslintConfig": {
+    "extends": ["plugin:eslint-plugin-import/recommended", "eslint:recommended"],
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "settings": {
+      "import/extensions": [".mjs", ".cjs", ".js"],
+      "import/resolver": {
+        "node": true
+      }
+    },
+    "rules": {
+      "import/no-unused-modules": [
+        "error",
+        {
+          "unusedExports": true
+        }
+      ]
+    }
+  }
+}
