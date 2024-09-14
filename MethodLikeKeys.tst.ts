@@ -8,3 +8,5 @@ interface Sample {
 }
 
 expect<MethodLikeKeys<Sample>>().type.toBe<"getLength" | "getWidth">();
+
+throw new Error('test still passes')
