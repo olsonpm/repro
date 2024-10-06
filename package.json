@@ -1,0 +1,24 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "tstyche": "^2.1.1",
+    "typescript": "^5.6.2"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "experimentalTernaries": true,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
