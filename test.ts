@@ -1,8 +1,11 @@
 import { expect, test } from 'tstyche'
-import testInfer from './test-infer.mjs'
+
+type TestInfer = <A extends Array<any>>(
+  arr: A
+) => A extends Array<infer V> ? V : unknown
 
 test('error with identical types', () => {
-  expect(testInfer).type.toBe<
+  expect<TestInfer>().type.toBe<
     <A extends Array<any>>(arr: A) => A extends Array<infer V> ? V : unknown
   >()
 })
