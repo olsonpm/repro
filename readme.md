@@ -2,7 +2,7 @@
 
 to reproduce
 
-```
+```sh
 $ git clone git@github.com:olsonpm/repro.git
 $ cd repro
 $ git checkout tstyche-infer-issue
