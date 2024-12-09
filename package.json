@@ -1,0 +1,18 @@
+{
+  "name": "codemirror-selection-overlap",
+  "version": "0.1.0",
+  "main": "editor.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"dependencies": {
+		"@rollup/plugin-node-resolve": "^15.3.0",
+		"codemirror": "^6.0.1",
+		"nodemon": "^3.1.7",
+		"rollup": "^4.28.1"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
