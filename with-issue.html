@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <style>
+      h1 {
+        font-size: 40px;
+        margin: 0;
+      }
+      #editor-container {
+        display: flex;
+        justify-content: end;
+        margin-right: 100px;
+      }
+      .cm-editor {
+        border: 1px solid black;
+        height: 400px;
+        width: 600px;
+      }
+      #vertical-space {
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CodeMirror!</h1>
+    <p>
+      This example shows the eslint hover tooltip shifting in chrome but not in
+      firefox. Notice how in firefox the scrollbar doesn't impact the width of
+      the tooltip.
+    </p>
+    <div id="editor-container"></div>
+    <div id="vertical-space"></div>
+    <script src="editor.bundle.js"></script>
+  </body>
+</html>

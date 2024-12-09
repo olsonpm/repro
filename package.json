@@ -1,0 +1,31 @@
+{
+  "name": "codemirror-selection-overlap",
+  "version": "0.1.0",
+  "main": "editor.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.8.0",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/language": "^6.10.8",
+    "@codemirror/lint": "^6.8.4",
+    "@codemirror/view": "^6.36.2",
+    "@eslint/js": "^9.18.0",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "eslint-linter-browserify": "^9.18.0",
+    "nodemon": "^3.1.7",
+    "rollup": "^4.28.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@olsonpm/eslint-config-personal": "github:olsonpm/eslint-config-personal",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
+  }
+}
