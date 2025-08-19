@@ -10,6 +10,8 @@ When using
 ### to reproduce
 
 ```sh
+❯ npm ci
+  ...
 ❯ npx mocha test.js
 
   my module
