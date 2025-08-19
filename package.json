@@ -1,0 +1,26 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/repro/issues"
+  },
+  "homepage": "https://github.com/olsonpm/repro#readme",
+  "dependencies": {
+    "chai": "^5.3.1",
+    "fibble": "^1.2.3",
+    "mocha": "^11.7.1"
+  }
+}
