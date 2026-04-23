@@ -1,0 +1,12 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-deps": "cd shared && npm install && cd ../hono-api && npm install && cd ../my-app && npm install && cd .."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
