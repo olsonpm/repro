@@ -1,0 +1,28 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/olsonpm/repro/issues"
+  },
+  "homepage": "https://github.com/olsonpm/repro#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.5"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "experimentalTernaries": true
+  }
+}
